@@ -1,0 +1,7 @@
+services:
+  app:
+    build: app
+    ports:
+      - ${FITNESSE_PORT}:80
+    volumes:
+      - ${FITNESSE_VOLUME}:/var/opt/fitnesse
