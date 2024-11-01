@@ -4,4 +4,4 @@ services:
     ports:
       - ${FITNESSE_PORT}:80
     volumes:
-      - ${FITNESSE_VOLUME}:/var/opt/fitnesse
+      - ${FITNESSE_DATA}:/var/opt/fitnesse
